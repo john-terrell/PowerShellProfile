@@ -11,7 +11,7 @@ function home {
 
 $env:desktop = Join-Path $env:home Desktop
 function desktop {
-    Set-Location $env:desktop
+    Push-Location $env:desktop
 }
 
 $env:downloads = "d:\downloads"
